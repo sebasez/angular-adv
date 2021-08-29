@@ -15,3 +15,4 @@ export class DonaComponent {
   @Input('data') doughnutChartData: MultiDataSet = [[100,100,100]];
   @Input('colorsdata') colors: Color[] = [ { backgroundColor: ['#ff7f0e', '#2ca02c', '#d62728'] } ];
 }
+ 
